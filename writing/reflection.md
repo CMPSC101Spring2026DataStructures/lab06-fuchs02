@@ -1,10 +1,10 @@
 # CS101 Spring 2026 — Practice Midterm Reflection
 
-Name: Add Your Name Here  
-Date: Add Date Here
+Name: Kallan Fuchs 
+Date: 3/18/2026
 
 After completing the practice test, please reflect on your experience by
-answering the questions below. Replace each `TODO` with a thoughtful response
+answering the questions below. Replace each `TO-DO` with a thoughtful response
 (a few sentences each). Your responses help you consolidate what you learned
 and identify areas to review before the real midterm.
 
@@ -17,7 +17,7 @@ Which topics felt most comfortable, and which ones felt most difficult?
 
 **Your Answer:**
 
-TODO
+I feel very good although I want to look over adding list together and the algorithmic methods as I was confused on thoes two questions.
 
 ---
 
@@ -28,7 +28,7 @@ Explain the concept being tested and describe why the correct answer is right.
 
 **Your Answer:**
 
-TODO
+I got only number 8 incorrect due to mixing up the .values() command so I answered d while c was the correct answer. 
 
 ---
 
@@ -39,7 +39,7 @@ with a positive step versus a negative step. Give one original example of each.
 
 **Your Answer:**
 
-TODO
+range with a positive step would go from a up to b awhile a negitive step would start at a and go down until reaching b and example would be range(1,5) to go from 1-4 with a positve step and range(5,1,-1) to go from 5-2 with a negative step. 
 
 ---
 
@@ -51,7 +51,7 @@ dictionary and a set. When would you choose each?
 
 **Your Answer:**
 
-TODO
+A list stores data in a changable list of values while a touple stores items in one variable that is not changable. A dictioary stores a key and a value which can be called upon using that key while a set is an unorginized grouping of unique items.
 
 ---
 
@@ -63,7 +63,8 @@ the caller omits that argument.
 
 **Your Answer:**
 
-TODO
+A default parameter is a parameter that has a default value but can be overridden. An eample is def add(x = 5):
+5 is the default value but if called as add(6) x would be changed to 6. 
 
 ---
 
@@ -81,7 +82,7 @@ for n in range(1, 11):
 
 **Your Answer:**
 
-TODO
+result = [n for n in range(1,11) if n % 3 == 0]
 
 ---
 
@@ -92,7 +93,7 @@ What is the value of `2 ** 2 ** 3`? Show your step-by-step reasoning.
 
 **Your Answer:**
 
-TODO
+This would start as 2 ** 3 which equals 8 then python would consider 2 ** 8 wich is 256. 
 
 ---
 
@@ -102,7 +103,7 @@ TODO
 
 **Your Answer:**
 
-TODO
+Classes are a gorup of functions all using the same variables which are nessesary to call repeatativ functions for seperat values such as students where each would have a name and grade and use there own set of the repeating functions. 
 
 ---
 
